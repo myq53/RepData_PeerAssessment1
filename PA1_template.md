@@ -76,7 +76,7 @@ sum(is.na(activity))
 ## [1] 2304
 ```
 
-Note that $2304 = 288*8$; the only missing values in the data correspond to 8 dates for which *all* 288 time intervals are missing.
+Note that 2304 = 288x8; the only missing values in the data correspond to 8 dates for which *all* 288 time intervals are missing.
 
 We make a new data frame, "activityImputed", in which we replace all missing values in the original data frame "activity" by the mean number of steps for the corresponding time interval.
 

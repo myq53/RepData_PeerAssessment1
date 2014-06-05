@@ -174,10 +174,6 @@ hljs.initHighlightingOnLoad();
 </script>
 
 
-<!-- MathJax scripts -->
-<script type="text/javascript" src="https://c328740.ssl.cf1.rackcdn.com/mathjax/2.0-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-</script>
-
 
 
 </head>
@@ -250,7 +246,7 @@ axis(1,at=c(seq(1,241,by=48),288),labels=c(&quot;0:00&quot;,&quot;4:00&quot;,&qu
 <pre><code>## [1] 2304
 </code></pre>
 
-<p>Note that \( 2304 = 288*8 \); the only missing values in the data correspond to 8 dates for which <em>all</em> 288 time intervals are missing.</p>
+<p>Note that 2304 = 288x8; the only missing values in the data correspond to 8 dates for which <em>all</em> 288 time intervals are missing.</p>
 
 <p>We make a new data frame, &ldquo;activityImputed&rdquo;, in which we replace all missing values in the original data frame &ldquo;activity&rdquo; by the mean number of steps for the corresponding time interval.</p>
 
